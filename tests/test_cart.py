@@ -83,7 +83,7 @@ class TestFavourites:
 
 class TestOther:
     @allure.title('Тест выбора города')
-    def test_city_select():
+    def test_city_select(self):
         with allure.step("Oткрыть странцу магазина"):
             app.open_page().close_banner()
 

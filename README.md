@@ -54,21 +54,21 @@ Python * Pytest * Selene * (Selenium) * Selenoid * Jenkins * Allure Report * Tel
 Нажмите build 
 <img src="readme_files/screens/building job.png" width="200" height="100">
 3. Когда тест будет пройден, можно посмотреть подрбности в отчете Allure  
-Для это нужно нажать на иконку allure отчета
+Для это нужно нажать на иконку allure отчета <img src="readme_files/allure.png" width="20" height="20">
 
 #### Структура отчета
-<img src="readme_files/screens/allure report.png" width="400" height="300">
+<img src="readme_files/screens/allure report.png" width="550" height="300">
 
 - Можно раскрыть тесты и увидеть подробности сборки  
-<img src="readme_files/screens/allure opened.png" width="350" height="300">
+<img src="readme_files/screens/allure opened.png" width="550" height="300">
 - Можно посмотреть дефекты прогона  
-<img src="readme_files/screens/allure_defect.png" width="350" height="300">
+<img src="readme_files/screens/allure_defect.png" width="550" height="300">
 - Можно посмотреть результаты сборки в графиках  
-<img src="readme_files/screens/allure_graph.png" width="350" height="300">
+<img src="readme_files/screens/allure_graph.png" width="550" height="300">
 - Можно посмотреть скрины сборки  
-<img src="readme_files/screens/screen_from_allure.png" width="350" height="300">
+<img src="readme_files/screens/screen_from_allure.png" width="550" height="300">
 - Можно посмотреть запись прохождения теста  
-<img src="readme_files/screens/autotest_screenrecord.gif" width="350" height="300">
+<img src="readme_files/screens/autotest_screenrecord.gif" width="550" height="300">
 
 ### Локально
 
@@ -94,7 +94,8 @@ git clone
   allure serve allure-results
   ``` 
 
-## Telegram:
+## Telegram: <img src="readme_files/Telegram_logo.webp" width="20" height="20">  
+
 Возможна интеграция в Telegram, для более удобных оповещений.  
 
 Нужен бот в Telegram @BotFather и чат с правами администратора. 

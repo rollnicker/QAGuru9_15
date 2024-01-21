@@ -99,8 +99,8 @@ git clone
 
 Возможна интеграция в Telegram, для более удобных оповещений.  
 
-Нужен бот в Telegram @BotFather и чат с правами администратора. 
+Нужен бот в Telegram @BotFather и чат с правами администратора.  
 <img src="readme_files/screens/botfaher.png" width="100" height="100">
 
-Пример отчета в Telegram 
+Пример отчета в Telegram   
 <img src="readme_files/screens/telegram.png" width="100" height="100">

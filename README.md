@@ -57,26 +57,29 @@ Python * Pytest * Selene * (Selenium) * Selenoid * Jenkins * Allure Report * Tel
 Для это нужно нажать на иконку allure отчета
 
 #### Структура отчета
-<img src="readme_files/screens/allure report.png" width="200" height="100">
+<img src="readme_files/screens/allure report.png" width="400" height="300">
 
-- Можно раскрыть тесты и увидеть подробности сборки
-<img src="readme_files/screens/allure opened.png" width="200" height="100">
-- Можно посмотреть дефекты прогона
-<img src="readme_files/screens/allure_defect.png" width="200" height="100">
-- Можно посмотреть результаты сборки в графиках
-<img src="readme_files/screens/allure_graph.png" width="200" height="100">
-- Можно посмотреть скрины сборки
-<img src="readme_files/screens/screen_from_allure.png" width="200" height="100">
-- Можно посмотреть запись прохождения теста
-![autotest](readme_files/screens/autotest_screenrecord.gif)
+- Можно раскрыть тесты и увидеть подробности сборки  
+<img src="readme_files/screens/allure opened.png" width="350" height="300">
+- Можно посмотреть дефекты прогона  
+<img src="readme_files/screens/allure_defect.png" width="350" height="300">
+- Можно посмотреть результаты сборки в графиках  
+<img src="readme_files/screens/allure_graph.png" width="350" height="300">
+- Можно посмотреть скрины сборки  
+<img src="readme_files/screens/screen_from_allure.png" width="350" height="300">
+- Можно посмотреть запись прохождения теста  
+<img src="readme_files/screens/autotest_screenrecord.gif" width="350" height="300">
 
 ### Локально
 
 1. Клонируйте репозиторий на свой компьютер при помощи git clone
+  ```zsh
+git clone
+  ```
 2. Создайте и активируйте виртуальное окружение
   ```zsh
   python -m venv .venv
-  source .venv/bin/activate
+  source venv/bin/activate
   ```
 3. Установите зависимости с помощью pip
   ```zsh
@@ -84,8 +87,12 @@ Python * Pytest * Selene * (Selenium) * Selenoid * Jenkins * Allure Report * Tel
   ```
 4. Для запусков тестов локально используйте команду 
   ```zsh
-  pytest -sv
+  pytest tests
   ```
+5. Для получения allure отчета
+  ```zsh
+  allure serve allure-results
+  ``` 
 
 ## Telegram:
 Возможна интеграция в Telegram, для более удобных оповещений.  
@@ -95,4 +102,3 @@ Python * Pytest * Selene * (Selenium) * Selenoid * Jenkins * Allure Report * Tel
 
 Пример отчета в Telegram 
 <img src="readme_files/screens/telegram.png" width="100" height="100">
-

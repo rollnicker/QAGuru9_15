@@ -51,6 +51,7 @@ Python * Pytest * Selene * (Selenium) * Selenoid * Jenkins * Allure Report * Tel
 1. Нажмите на кнопку "build with parameters" (собрать с параметрами)
 <img src="readme_files/screens/jenkins parameters.png" width="200" height="100">
 2. Выберите версию браузера. Доступна 100 или 99 версия Google Chrome  
+Также можно написать комментарий, который будет отправлен в Telegram после окончания сборки
 Нажмите build 
 <img src="readme_files/screens/building job.png" width="200" height="100">
 3. Когда тест будет пройден, можно посмотреть подрбности в отчете Allure  

@@ -3,6 +3,7 @@ import allure
 from web.application import app
 
 
+@allure.title('Тесты корзины')
 class TestBasket:
     @allure.title('Добавление в корзину через каталог')
     def test_add_to_cart_through_catalog(self):

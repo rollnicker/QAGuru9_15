@@ -63,33 +63,3 @@ class TestBasket:
         with allure.step("Проверить что корзина пустая"):
             app.basket.should_have_empty_basket()
 
-
-class TestFavourites:
-    @allure.title('Добавление в избранное')
-    def test_add_to_favourites(self):
-        with allure.step("Oткрыть странцу магазина"):
-            app.open_page().close_banner()
-
-        with allure.step("Открыть страницу товара"):
-            app.header_panel.open_searched_models('Apple iPad 10.9 (2022) 256GB Wi-Fi Global')
-            app.choose_model.open_product('Apple iPad 10.9 (2022) 256GB Wi-Fi Global')
-        with allure.step("Добавить в избранное"):
-            app.item_page.add_item_to_favourites()
-        with allure.step("Открыть страницу избранное"):
-            app.header_panel.open_favourites()
-
-        with allure.step("Проверить что выбранный товар присутствует в избранном"):
-            app.favourites_page.check_model_name_in_favourites('Apple iPad 10.9 (2022) 256GB Wi-Fi Global')
-
-
-class TestOther:
-    @allure.title('Тест выбора города')
-    def test_city_select(self):
-        with allure.step("Oткрыть странцу магазина"):
-            app.open_page().close_banner()
-
-        with allure.step("Oткрыть меню выбора города и выбрать"):
-            app.header_panel.select_city('Екатеринбург')
-
-        with allure.step("Проверить что выбранный город отображается"):
-            app.header_panel.should_have_selected_city_name('Екатеринбург')

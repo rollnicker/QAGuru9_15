@@ -47,13 +47,13 @@ Python * Pytest * Selene * (Selenium) * Selenoid * Jenkins * Allure Report * Tel
 ## Запуск проекта:
 ### Через Jenkins
 Ссылка на [Job]("https://jenkins.autotests.cloud/job/Rolnik_QA_Guru_9_15/")  
-<img src="readme_files/screens/jenkins job.png" width="400" height="200">
+<img src="readme_files/screens/jenkins job.png" width="600" height="400">
 1. Нажмите на кнопку "build with parameters" (собрать с параметрами)
-<img src="readme_files/screens/jenkins parameters.png" width="200" height="100">
+<img src="readme_files/screens/jenkins parameters.png" width="500" height="300">
 2. Выберите версию браузера. Доступна 100 или 99 версия Google Chrome  
 Также можно написать комментарий, который будет отправлен в Telegram после окончания сборки
 Нажмите build 
-<img src="readme_files/screens/building job.png" width="200" height="100">
+<img src="readme_files/screens/building job.png" width="500" height="300">
 3. Когда тест будет пройден, можно посмотреть подрбности в отчете Allure  
 Для это нужно нажать на иконку allure отчета <img src="readme_files/allure.png" width="20" height="20">
 

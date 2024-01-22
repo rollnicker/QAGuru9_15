@@ -13,7 +13,7 @@ class HeaderPanel:
         self.available_cities = browser.all('.js-city-item')
         self.selected_city = browser.element('.city-info__choose')
         self.favourites_button = browser.element('.header__user [href="/favourites/"]')
-        self.authorisation_button = browser.element('.avtorization-call')
+        self.authorization_button = browser.element('.avtorization-call')
 
     def open_catalog(self):
         self.catalog.click()
@@ -40,13 +40,8 @@ class HeaderPanel:
     def open_favourites(self):
         self.favourites_button.click()
 
-    def open_autorisation(self):
-        self.authorisation_button.click()
-
-    """
-    Не реализовано тестирование авторизации
-    нужно выяснить как корректно хранить логин и пароль
-    """
+    def open_autorization(self):
+        self.authorization_button.click()
 
 
 class CatalogMenu:

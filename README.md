@@ -48,7 +48,7 @@ Python * Pytest * Selene * (Selenium) * Selenoid * Jenkins * Allure Report * Tel
 ### Через Jenkins
 Ссылка на [Job]("https://jenkins.autotests.cloud/job/Rolnik_QA_Guru_9_15/")  
 <img src="readme_files/screens/jenkins job.png" width="600" height="400">
-1. Нажмите на кнопку "build with parameters" (собрать с параметрами)
+1. Нажмите на кнопку "build with parameters" (собрать с параметрами)  
 <img src="readme_files/screens/jenkins parameters.png" width="500" height="300">
 2. Выберите версию браузера. Доступна 100 или 99 версия Google Chrome  
 Также можно написать комментарий, который будет отправлен в Telegram после окончания сборки

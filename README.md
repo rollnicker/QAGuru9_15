@@ -67,7 +67,7 @@ Python * Pytest * Selene * (Selenium) * Selenoid * Jenkins * Allure Report * Tel
 - Можно посмотреть результаты сборки в графиках  
 <img src="resources/screens/allure_graph.png" width="800" height="500">
 - Можно посмотреть скрины сборки  
-<img src="resources/screens/screen_from_allure.png" width="800" height="500">
+<img src="resources/screens/screen_from_allure.png" width="850" height="500">
 - Можно посмотреть запись прохождения теста  
 <img src="resources/screens/autotest_screenrecord.gif" width="800" height="500">
 

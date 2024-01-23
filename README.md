@@ -47,7 +47,7 @@ Python * Pytest * Selene * (Selenium) * Selenoid * Jenkins * Allure Report * Tel
 ## Запуск проекта:
 ### Через Jenkins
 Ссылка на [Job]("https://jenkins.autotests.cloud/job/Rolnik_QA_Guru_9_15/")  
-<img src="resources/screens/jenkins job.png" width="600" height="400">
+<img src="resources/screens/jenkins job.png" width="800" height="600">
 1. Нажмите на кнопку "build with parameters" (собрать с параметрами)  
 <img src="resources/screens/jenkins parameters.png" width="500" height="300">
 2. Выберите версию браузера. Доступна 100 или 99 версия Google Chrome  
@@ -58,18 +58,18 @@ Python * Pytest * Selene * (Selenium) * Selenoid * Jenkins * Allure Report * Tel
 Для это нужно нажать на иконку allure отчета <img src="resources/allure.png" width="20" height="20">
 
 #### Структура отчета
-<img src="resources/screens/allure report.png" width="550" height="300">
+<img src="resources/screens/allure report.png" width="550" height="400">
 
 - Можно раскрыть тесты и увидеть подробности сборки  
-<img src="resources/screens/allure opened.png" width="550" height="300">
+<img src="resources/screens/allure opened.png" width="800" height="600">
 - Можно посмотреть дефекты прогона  
-<img src="resources/screens/allure_defect.png" width="550" height="300">
+<img src="resources/screens/allure_defect.png" width="800" height="600">
 - Можно посмотреть результаты сборки в графиках  
-<img src="resources/screens/allure_graph.png" width="550" height="300">
+<img src="resources/screens/allure_graph.png" width="800" height="600">
 - Можно посмотреть скрины сборки  
-<img src="resources/screens/screen_from_allure.png" width="550" height="300">
+<img src="resources/screens/screen_from_allure.png" width="800" height="600">
 - Можно посмотреть запись прохождения теста  
-<img src="resources/screens/autotest_screenrecord.gif" width="550" height="300">
+<img src="resources/screens/autotest_screenrecord.gif" width="800" height="600">
 
 ### Локально
 
@@ -100,7 +100,7 @@ git clone
 Возможна интеграция в Telegram, для более удобных оповещений.  
 
 Нужен бот в Telegram @BotFather и чат с правами администратора.  
-<img src="resources/screens/botfaher.png" width="200" height="250">
+<img src="resources/screens/botfaher.png" width="290" height="300">
 
 Пример отчета в Telegram   
-<img src="resources/screens/telegram.png" width="200" height="250">
+<img src="resources/screens/telegram.png" width="290" height="300">
